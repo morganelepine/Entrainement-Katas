@@ -4,11 +4,15 @@ function askName(){
     return prenom;
 }
 
+
+// si le #moisnaissance est inférieur à 11, alors on enlève 1 à #age
+
 var mois = [1,2,3,4,5,6,7,8,9,10,11,12]
 
-for (let i=1; i<11; i++)
+let mois = prompt ("Quel est votre mois de naissance (en nombre) ?", "Numéro de votre mois de naissance")
+let annee = prompt("En quelle année êtes-vous né·e ?", "Votre année de naissance")
 
-if (moisnaissance < moisactuel){
+if (mois < moisactuel){
     var moisAge = currentMonth - dtMonth;  
 }
 else {
@@ -18,8 +22,6 @@ else {
 
 
 function askBirthYear(){
-    let mois = prompt ("Quel est votre mois de naissance (en nombre) ?", "Numéro de votre mois de naissance")
-    let annee = prompt("En quelle année êtes-vous né·e ?", "Votre année de naissance")
     let age = 2022 - annee
     return age;
 }
