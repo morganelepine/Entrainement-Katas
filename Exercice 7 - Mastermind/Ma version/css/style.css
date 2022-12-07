@@ -1,0 +1,31 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1
+{
+    color:seagreen
+}
+
+#combinaisonDonnee{
+    color: grey;
+    font-weight: 500;
+}
+
+#essaisMax{
+    color: rgb(179, 23, 23);
+    font-style: italic;
+    font-weight: bold;
+}
+
+#gagne{
+    color:darkgreen;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#numberOfAttempts{
+    font-style: italic;
+}

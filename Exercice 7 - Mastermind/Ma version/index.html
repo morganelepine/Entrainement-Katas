@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Mastermind</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <h1>🎲 Mastermind</h1>
+
+        <h3 id="combinaisonDonnee"></h3>
+
+        <p id="numberOfAttempts"></p>
+
+        <br>
+
+        <form>
+            <label for="guessCombination">Choisissez quatre pions :</label>
+            <select id="pion1">
+                <option value="couleur">Couleur</option>
+                <option value="bleu">Bleu</option>
+                <option value="rouge">Rouge</option>
+                <option value="jaune">Jaune</option>
+                <option value="vert">Vert</option>
+                <option value="violet">Violet</option>
+                <option value="orange">Orange</option>
+                <option value="gris">Gris</option>
+                <option value="rose">Rose</option>
+            </select>
+            <select id="pion2">
+                <option value="couleur">Couleur</option>
+                <option value="bleu">Bleu</option>
+                <option value="rouge">Rouge</option>
+                <option value="jaune">Jaune</option>
+                <option value="vert">Vert</option>
+                <option value="violet">Violet</option>
+                <option value="orange">Orange</option>
+                <option value="gris">Gris</option>
+                <option value="rose">Rose</option>
+            </select>
+            <select id="pion3">
+                <option value="couleur">Couleur</option>
+                <option value="bleu">Bleu</option>
+                <option value="rouge">Rouge</option>
+                <option value="jaune">Jaune</option>
+                <option value="vert">Vert</option>
+                <option value="violet">Violet</option>
+                <option value="orange">Orange</option>
+                <option value="gris">Gris</option>
+                <option value="rose">Rose</option>
+            </select>
+            <select id="pion4">
+                <option value="couleur">Couleur</option>
+                <option value="bleu">Bleu</option>
+                <option value="rouge">Rouge</option>
+                <option value="jaune">Jaune</option>
+                <option value="vert">Vert</option>
+                <option value="violet">Violet</option>
+                <option value="orange">Orange</option>
+                <option value="gris">Gris</option>
+                <option value="rose">Rose</option>
+            </select>
+            <!--<input type="text" id="pion1" placeholder="blue? yellow? red? green?">
+            <input type="text" id="pion2" placeholder="blue? yellow? red? green?">-->
+            <input type="button" id="bouton" value="Valider" OnClick="gameOK()">
+        </form>
+
+        <br>
+        
+        <p id="yourAnswer1"></p>
+        <p id="yourAnswer2"></p>
+        <p id="essaisMax"></p>
+        <p id="gagne"></p>
+        
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
