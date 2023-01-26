@@ -1,0 +1,18 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 1%;
+}
+
+@font-face {
+    font-family: "Happy-Day";
+    src: url("/fonts/Happy-Day.ttf") format(‘truetype’);
+}
+
+h1{
+    font-family: "Happy-Day", sans-serif;
+    letter-spacing: 3px;
+}
+
+#container{
+    width: 500px;
+}
