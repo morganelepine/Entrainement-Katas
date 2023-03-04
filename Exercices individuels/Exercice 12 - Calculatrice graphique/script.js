@@ -1,4 +1,3 @@
-
 //----------Afficher les chiffres dans le cadran au clic
 
 let number0 = document.getElementById("0").value   
